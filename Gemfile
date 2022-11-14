@@ -49,6 +49,7 @@ group :development, :test do
   gem 'spring'
   gem 'spring-commands-rspec'
   gem 'rails-erd'
+  gem 'rexml'
 end
 
 group :development do
@@ -63,6 +64,7 @@ group :development do
   gem 'listen', '~> 3.0.5'
   gem 'rack-mini-profiler', require: false
   gem 'web-console', '>= 3.3.0'
+
 end
 
 group :test do

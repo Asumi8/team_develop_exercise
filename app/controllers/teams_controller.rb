@@ -50,6 +50,7 @@ class TeamsController < ApplicationController
   def change_owner
     @team.update(owner_id: params[:owner_id])
     @user = User.find(@team.owner_id)
+    TeamMailer.team_mail(@user, @team).deliver
     redirect_to team_path, notice: "権限を変更しました"
   end
 
