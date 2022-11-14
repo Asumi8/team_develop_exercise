@@ -216,6 +216,8 @@ ja:
       cannot_delete_only_a_member: 'このユーザーはこのチームにしか所属していないため、削除できません。'
       delete_member: 'メンバーを削除しました。'
       cannot_delete_member_4_some_reason: 'なんらかの原因で、削除できませんでした。'
+      only_leader_can_delete_member: 'リーダー以外はメンバーを削除できません'
+      only_leader_can_edit_team: 'リーダー以外はメンバーを編集できません'
       failed_to_post: '投稿できませんでした...'
       create_team: 'チーム作成に成功しました！'
       failed_to_save_team: '保存に失敗しました、、'
